@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f6f7;
+}
+
+.banco-logo img {
+    width: 150px;
+}
+
+.ayudaicono {
+    font-size: 20pt;
+    color: #004f9e;
+}
+
+.container {
+    margin: 2rem 2rem;
+    padding: 2rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container {
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgb(80, 80, 80) 0px 0px 10px 1px;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #2c3031;
+    font-size: 19pt;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: .4rem;
+    font-size: 14pt;
+}
+
+input {
+    margin-bottom: .4rem;
+    font-size: 14pt;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #d8d8d8;
+    color: rgb(58, 58, 58);
+    padding: 10px;
+    
+}
+
+button {
+    background-color: #ff9100;
+    border: none;
+    font-size: 14pt;
+    color: white;
+    padding: 1rem;
+    border-radius: 30px;
+    box-shadow: rgb(80, 80, 80) 0px 0px 5px 1px;
+}
+
+.buttoningreso {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: .8rem;
+    color: #004f9e;
+    font-weight: 600;
+    cursor: pointer;
+}
